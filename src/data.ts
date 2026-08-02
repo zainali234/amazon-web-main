@@ -12,7 +12,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'levoit-air-purifier',
     name: 'Levoit Core True HEPA Air Purifier Tower',
-    price: 100.00,
+    price: 125.00,
     originalPrice: 129.99,
     rating: 4.8,
     reviewsCount: 1642,
@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'satin-sheets-set',
     name: 'Luxury Silky Satin Bed Sheets 4-Piece Cooling Set',
-    price: 100.00,
+    price: 59.99,
     originalPrice: 119.99,
     rating: 4.6,
     reviewsCount: 843,
@@ -57,7 +57,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ergonomic-office-chair',
     name: 'Ergonomic Wood-Accent High-Back Mesh Office Chair',
-    price: 100.00,
+    price: 110.00,
     originalPrice: 189.99,
     rating: 4.7,
     reviewsCount: 219,
@@ -78,7 +78,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'bounce-house-slide',
     name: 'Inflatable Commercial-Grade Bounce House & Water Slide',
-    price: 100.00,
+    price: 120.00,
     originalPrice: 249.99,
     rating: 4.9,
     reviewsCount: 108,
@@ -99,7 +99,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'wavytalk-hair-curler',
     name: 'Wavytalk Automatic Rotating Tourmaline Curling Iron',
-    price: 100.00,
+    price: 80.00,
     originalPrice: 139.99,
     rating: 4.7,
     reviewsCount: 911,
@@ -122,12 +122,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'revlon-volume-brush',
     name: 'Revlon One-Step Hair Dryer Brush & Volumizer',
-    price: 100.00,
+    price: 85.00,
     originalPrice: 124.99,
     rating: 4.7,
     reviewsCount: 3410,
     category: 'beauty',
-    image: 'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?q=80&w=600&auto=format',
+    image: '/images/revlon-one-step.jpg',
     description: 'Oval blow dryer and style hot air brush configured with ionic technology, dynamic pin-bristles, and multiple heating levels.',
     longDescription: 'Dry, detangle, style, and volumize your hair in one single step sweep. The Revlon One-Step Blow Dryer generates perfect professional blowouts in half the typical time with minimal heat damage. Constructed with a custom oval styling body to lift hair roots easily, nylon-pin bristles to unravel knots, air venting grids to heat hair gently, and tourmaline ionic glazes to coat hair with smooth shine.',
     features: [
@@ -165,20 +165,21 @@ export const PRODUCTS: Product[] = [
   {
     id: 'handheld-steam-cleaner',
     name: 'Pressurized Handheld Multi-Purpose Steam Cleaner',
-    price: 100.00,
+    price: 99.99,
     originalPrice: 134.99,
     rating: 4.8,
     reviewsCount: 228,
     category: 'home',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=600&auto=format',
+    image: '/images/handheld-steam.jpg',
     description: 'Hot pressurized steam chemical-free sanitizer washer with 9 piece accessory kit for kitchen, grout, upholstery, auto, and floor clean.',
     longDescription: 'Obliterate grease, dirt, grime, and mold safely and naturally. The Handheld High-Pressure Steam Cleaner blasts dynamic, high-temperature sanitizing water steam reaching up to 220°F without utilizing harsh commercial acids or bleaching solutions. Ready to steam in under 3 minutes, it comes equipped with a comprehensive multi-nozzle accessory package to refresh couches, clean bathroom grout, scrub stovetops, steam car seats, or press garments.',
     features: [
-      '1050 Watts of steaming power shoots hot spray deeply',
+      '2500 Watts of steaming power shoots hot spray deeply',
       'Generates high heat pressurized steam continuously',
       '100% Eco-Friendly chemical free cleaning protection',
       'Includes bent spray nozzle, brush tool, window squeegee, and safety cap',
-      'Extra-long power cord for easy household mobility'
+      'Extra-long power cord for easy household mobility',
+      '6 Adjustable Steam Levels & Dual Switch, 221°F, 4.5 BAR , 15s Heat-Up,For Tile, Grout, Grease, Dirt, Sofa, Windows'
     ],
     stock: 22,
     badge: 'Sanitary Master'
@@ -186,12 +187,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'smokeless-indoor-grill',
     name: 'Modern Indoor Smokeless Electric BBQ Grill',
-    price: 100.00,
+    price: 120.00,
     originalPrice: 159.99,
     rating: 4.8,
     reviewsCount: 412,
     category: 'kitchen',
-    image: '/images/smokeless_indoor_grill.png',
+    image: '/images/smokeless_indoor_grill.jpg',
     description: 'Indoor nonstick BBQ grill featuring automated steam smoke-filtering extractor fan, digital temperature dial, and tempered glass grill lid.',
     longDescription: 'Relish outdoor chargrilled barbecue steaks, burgers, behavior skewers, and salmon fillets any season of the year. Our premium Indoor Smokeless Electric Grill incorporates a high-power active air extractor fan loop to suck up soot, grilling smoke, and grease particles into charcoal water filter baths below, resulting in clean kitchen air. Plate is coated with ultra-slick heavy industrial ceramic nonstick surfaces.',
     features: [
@@ -205,30 +206,28 @@ export const PRODUCTS: Product[] = [
     badge: 'Chef Select'
   },
   {
-    id: 'retro-sandwich-press',
-    name: 'Seals & Crisps Retro Toastie Sandwich Press Maker',
-    price: 100.00,
-    originalPrice: 120.00,
-    rating: 4.7,
-    reviewsCount: 885,
-    category: 'kitchen',
-    image: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?q=80&w=600&auto=format',
-    description: 'Double-plate nonstick electric toastie sandwich maker, panini press cooker with mint green design highlights.',
-    longDescription: 'Turn plain breads into golden culinary masterworks in minutes with the Seals & Crisps toastie press. This compact mint-colored kitchen classic seals premium sandwich pockets, melting cheese, slicing edges, and crisping crusts evenly. Engineered with high-heat nonstick heating plates for clean wipes, cool-touch handle locks, and indicator lights.',
+    id: 'handheld-steam-vacuum',
+    name: 'Handheld Steam Vacuum Cleaner',
+    price: 99.99,
+    originalPrice: 129.99,
+    rating: 4.5,
+    reviewsCount: 234,
+    category: 'home',
+    image: '/images/handheld-steam.jpg',
+    description: 'Compact handheld steam vacuum for quick cleanups and spot treatments.',
+    longDescription: 'Tackle tough stains and odors with the versatile handheld steam vacuum. Its powerful steam technology penetrates deep into fabrics and surfaces, while the compact design makes it easy to maneuver in tight spaces.',
     features: [
-      'Crispy diagonal pocket sealing matrices prevent ingredients from leaking',
-      'Premium double-glazed nonstick surfaces reduce food washing sticky spots',
-      'Stunning retro mint-green high-shine classic body styling',
-      'Automatic heating thermostat lights keep you safe',
-      'Compact vertical storage clasp keeps counter spaces clear'
+      '2500 Watts of steaming power shoots hot spray deeply',
+      'Extra-long power cord for easy household mobility',
+      '6 Adjustable Steam Levels & Dual Switch, 221°F, 4.5 BAR , 15s Heat-Up,For Tile, Grout, Grease, Dirt, Sofa, Windows'
     ],
-    stock: 19,
-    badge: 'Toastie Fan'
+    stock: 22,
+    badge: 'Sanitary Master'
   },
   {
     id: 'step-on-trash-can',
     name: 'Rubbermaid Premier Series III Step-On Trash Can',
-    price: 100.00,
+    price: 85.00,
     originalPrice: 139.99,
     rating: 4.6,
     reviewsCount: 162,
@@ -249,12 +248,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'aster-cook-knives',
     name: 'Aster-cook 15-Piece Stainless Kitchen Knife Set',
-    price: 100.00,
+    price: 80.99,
     originalPrice: 159.99,
     rating: 4.9,
     reviewsCount: 512,
     category: 'kitchen',
-    image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=600&auto=format',
+    image: '/images/knife-block.jpg',
     description: 'Premium carbon German stainless steel all-black knives set nested in striking black hardwood storage block with built-in sharpener.',
     longDescription: 'Prepare ingredients with master precision. The Aster-cook professional cutlery set includes a complete assortment of high-carbon rust-free German stainless steel chef, slicing, utility, paring, steak, and bread knives, plus sharpening steel rods and premium kitchen shears. Coated with specialized sleek FDA-grade black matte non-stick anti-slip materials.',
     features: [
@@ -268,14 +267,14 @@ export const PRODUCTS: Product[] = [
     badge: 'Pro Chef'
   },
   {
-    id: 'chefman-griddle',
-    name: 'Chefman XL Family-Sized Nonstick Electric Griddle',
-    price: 100.00,
+    id: 'Commercial Electric Griddle',
+    name: 'Electric Countertop Flat Top Griddle,110V 1600W Electric Flat Top Grill,Non-Stick',
+    price: 99.99,
     originalPrice: 129.99,
     rating: 4.8,
     reviewsCount: 604,
     category: 'kitchen',
-    image: 'https://images.unsplash.com/photo-1581622558663-b2e33377dfb2?q=80&w=600&auto=format',
+    image: '/images/electric-griddle.jpg',
     description: '20 inch by 10 inch flat-top heavy electric table griddle with precise heat adjust dials, grease channel traps, and cool-touch edges.',
     longDescription: 'Whip up huge family breakfasts of pancakes, golden eggs, strips of bacon, and hashed hashbrowns together on Chefman’s extra-large electrical griddle plate. Engineered with advanced heating elements to maintain consistent temperatures across the entire flat-top surface, and featuring a built-in slight angle tilt slope to drain cooking oils into dishwasher safe underneath slide containers.',
     features: [
@@ -291,12 +290,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'carote-cookware-set',
     name: 'Carote Nonstick Granite Pots & Pans 10-Piece Set',
-    price: 100.00,
+    price: 120.99,
     originalPrice: 149.99,
     rating: 4.8,
     reviewsCount: 954,
     category: 'kitchen',
-    image: '/images/carote_cookware_set.png',
+    image: '/images/pan-set.jpg',
     description: 'Aesthetic eco-friendly granite stone ceramic cookware set featuring gorgeous wood-textured touch handles.',
     longDescription: 'Form, function, and style align in this beautiful Swedish design eco-friendly cookware collection from CAROTE. Forged with thick conducting aluminum alloy cores and glazed with a five-layer ultra-slick nonstick health granite granite stone glaze that is 100% PFOA, lead, and cadmium free. Textured cool-touch woodgrain-pattern handles offer comfortable grips and beautiful styling.',
     features: [
@@ -313,12 +312,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'graco-car-seat',
     name: 'Graco SlimFit 3-in-1 Convertible Baby Car Seat',
-    price: 100.00,
+    price: 125.99,
     originalPrice: 219.99,
     rating: 4.9,
     reviewsCount: 1422,
     category: 'home',
-    image: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=600&auto=format',
+    image: '/images/car-seat.jpg',
     description: 'Ultra slim convertible child safety seat holding rear-facing toddlers to forward-facing kids up to 100 lbs.',
     longDescription: 'Keep your child safe, cozy, and perfectly nested inside the Graco SlimFit 3-in-1 Convertible seat. Featuring a smart space-saving narrow casing frame that frees up back seat space, this seat transitions seamlessly from rear-facing harness, to forward-facing harness, and to highback booster seats. Includes premium impact materials, dual cup holders, and high adjust straps.',
     features: [
@@ -334,12 +333,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'dash-cam',
     name: 'Ultra-HD Dual Dashboard Car Dash Camera',
-    price: 100.00,
+    price: 110.99,
     originalPrice: 149.99,
     rating: 4.7,
     reviewsCount: 328,
     category: 'electronics',
-    image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=600&auto=format',
+    image: '/images/dash-camera.jpg',
     description: 'Crisp wide-angle dual recording dash camera featuring integrated GPS tracking, night vision, and 64GB storage.',
     longDescription: 'Capture your travels in absolute clarity with this dual-lens dashboard camera. Incorporating professional-grade Sony sensors, it records ultra HD video for both the front road perspective and the inner car cabin simultaneously. Automatically records collisions via built-in G-sensors, loop-records over old logs seamlessly, and works flawlessly under extreme temperatures.',
     features: [
@@ -355,12 +354,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'bullet-blender',
     name: 'NutriBullet Food Personal Bullet Blender Kit',
-    price: 100.00,
+    price: 75.99,
     originalPrice: 129.99,
     rating: 4.8,
     reviewsCount: 789,
     category: 'kitchen',
-    image: 'https://images.unsplash.com/photo-1578643463396-0997cb5328c1?q=80&w=600&auto=format',
+    image: '/images/personal-blender.jpg',
     description: 'Compact personal bullet kitchen blender with cyclonic extraction system for high quality smoothies.',
     longDescription: 'The NutriBullet is the fastest, easiest solution for making nutrient-packed smoothies. Load it up with your favorite whole foods like nuts, berries and spinach, then push, twist and blend your way to a healthier lifestyle. Powerful motors and cyclonic extraction blades break down tough seeds, stems, and skins to unlock the vital nutrition inside.',
     features: [
@@ -376,12 +375,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ceiling-fan',
     name: 'Modern Ceiling Fan with Integrated Ring LED Light',
-    price: 100.00,
-    originalPrice: 159.99,
+    price: 150.99,
+    originalPrice: 210.99,
     rating: 4.7,
     reviewsCount: 214,
     category: 'home',
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600&auto=format',
+    image: '/images/ceiling-fan.jpg',
     description: 'Low-profile flush mount ring light ceiling fan featuring modern matte wire mesh framing and multi-speed wireless remote.',
     longDescription: 'Optimize both illumination and air ventilation in your bedrooms or workspaces. This modern ceiling fan integrates a dimmable LED ring light surrounding low-profile fan blades. Offers multi-speed motor rotation, bidirectional operations for seasonal warming/cooling, and silent whisper-quiet operation. Installs easily with standard flush mounts.',
     features: [
@@ -397,7 +396,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'stanley-tumbler',
     name: 'Stanley Classic Trigger-Action Insulated Travel Tumbler',
-    price: 100.00,
+    price: 50.00,
     originalPrice: 115.00,
     rating: 4.9,
     reviewsCount: 3104,
@@ -419,12 +418,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ninja-blender',
     name: 'Ninja Blast Portable Personal Rechargeable Blender',
-    price: 100.00,
+    price: 60.00,
     originalPrice: 119.99,
     rating: 4.8,
     reviewsCount: 452,
     category: 'kitchen',
-    image: 'https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?q=80&w=600&auto=format',
+    image: '/images/blender.jpg',
     description: 'High-performance USB-C rechargeable portable personal single-serve smoothie blender with leakproof lid.',
     longDescription: 'Take your nutritional smoothies, protein shakes, and frozen margaritas anywhere you go with the Ninja Blast. Powered by a USB-C rechargeable battery pack that blends up to 15 times on a single charge. Fitted with Ninja’s signature high-velocity stainless steel extraction blade to slice through ice, frozen fruits, vegetables, and powders smoothly.',
     features: [
@@ -438,14 +437,14 @@ export const PRODUCTS: Product[] = [
     badge: 'Fitness Pick'
   },
   {
-    id: 'azzaro-parfum',
-    name: 'Azzaro The Most Wanted Premium Men’s Parfum',
-    price: 100.00,
+    id: 'sauvage dior',
+    name: 'Sauvage by Christian Dior Parfum Spray 2 oz',
+    price: 99.99,
     originalPrice: 140.00,
     rating: 4.8,
     reviewsCount: 228,
     category: 'beauty',
-    image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=600&auto=format',
+    image: '/images/sauvage.jpg',
     description: 'Luxury highback cardamom and amber notes men\'s cologne in a stylish revolver-styled black bottle casing.',
     longDescription: 'Unleash your charismatic presence with Azzaro The Most Wanted, an intensely sophisticated fragrance for the modern gentleman. This premium woody oriental parfum blends fresh cardamom, melt-in-the-mouth sweet caramel, and deep warm amber wood trails. Packaged in a striking signature all-black cylindrical revolver-barrel bottle casing.',
     features: [
@@ -461,12 +460,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'kerastase-serum',
     name: 'Kérastase Genesis Fortifying Scalp Serum',
-    price: 100.00,
+    price: 85.99,
     originalPrice: 125.00,
     rating: 4.7,
     reviewsCount: 310,
     category: 'beauty',
-    image: 'https://images.unsplash.com/photo-1608248597481-496100c80836?q=80&w=600&auto=format',
+    image: '/images/oily.jpg',
     description: 'Professional daily scalp fortifying serum infused with ginger root extracts to strengthen damaged fibers and prevent hair-fall.',
     longDescription: 'Give your hair roots the ultimate nutritional support. Kérastase Genesis Fortifying Serum is a daily scalp wellness solution designed to strengthen hair fibers from the anchor point, reducing hair fall arising from brushing or heat stress. Formulated with Aminexil, Ginger Root extracts, and Edelweiss Native cells to soothe irritation and build a healthy scalp barrier.',
     features: [
@@ -482,12 +481,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'smart-watch',
     name: 'Elegant Rose-Gold Women’s Smart Watch Tracker',
-    price: 100.00,
+    price: 110.99,
     originalPrice: 159.99,
     rating: 4.6,
     reviewsCount: 195,
     category: 'electronics',
-    image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=600&auto=format',
+    image: '/images/smart-watch.jpg',
     description: 'Premium circular smartwatch with flower-theme faces, heart rate tracking, and high-visibility OLED display.',
     longDescription: 'A perfect blend of luxury jewelry styling and advanced watch analytics. This rose-gold smartwatch monitors your sleep cycles, tracks heart-rate curves, acts as a pedometer, logs sports sessions, and alerts you to text messages. It features a bright circular OLED touch face configured with a wide range of elegant botanical dial visual skins.',
     features: [
@@ -503,12 +502,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'tattoo-pen',
     name: 'Dragonhawk Rotary Tattoo Pen Machine Kit',
-    price: 100.00,
-    originalPrice: 179.99,
+    price: 150.00,
+    originalPrice: 199.99,
     rating: 4.7,
     reviewsCount: 88,
     category: 'beauty',
-    image: 'https://images.unsplash.com/photo-1611501275019-9b5cdae81d62?q=80&w=600&auto=format',
+    image: '/images/tatto-fold.jpg',
     description: 'Professional rotary tattoo pen gun matching custom needles, color ink pots, and digital power board tools.',
     longDescription: 'Unleash your creative tattoo designs with this elite Dragonhawk Rotary Tattoo Pen. Constructed with a seamless aerospace-grade aluminum casing driven by a custom Japanese motor for low noise, gentle vibration, and stable stitch operations. Includes an adjustable LCD power brick, steel foot pedals, dual cartridge configurations, and skin practice pads.',
     features: [
@@ -524,7 +523,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'lash-kit',
     name: 'Veyes Beauty DIY Eyelash Extensions Pro Starter Kit',
-    price: 100.00,
+    price: 70.99,
     originalPrice: 115.00,
     rating: 4.6,
     reviewsCount: 142,
@@ -545,12 +544,12 @@ export const PRODUCTS: Product[] = [
   {
     id: 'massage-table',
     name: 'Zen Wooden Portable Folding Salon Massage Table',
-    price: 100.00,
-    originalPrice: 189.99,
+    price: 220.00,
+    originalPrice: 350.99,
     rating: 4.8,
     reviewsCount: 94,
     category: 'beauty',
-    image: 'https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=600&auto=format',
+    image: '/images/massage-table.jpg',
     description: 'Triple-fold professional salon massage table with solid beech wood structure and therapeutic memory foam padding.',
     longDescription: 'Provide extreme therapeutic comfort with the Zen Folding Massage Table. Built upon a solid structural frame of selected beech wood and high-tension steel cords that supports up to 500 lbs. Padded with 2.5 inches of high-density memory foam lined with water-resistant PVC leather. Fully collapsible and easily carried in its premium canvas luggage bag.',
     features: [
@@ -566,7 +565,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'vacuum-cleaner',
     name: 'Ultra-Lightweight Cordless Stick Vacuum Cleaner',
-    price: 100.00,
+    price: 120.00,
     originalPrice: 169.99,
     rating: 4.7,
     reviewsCount: 382,
